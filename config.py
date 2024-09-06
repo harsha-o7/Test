@@ -9,10 +9,10 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID" 26516344))
-API_HASH = getenv("API_HASH" "7a3f7d55d89476a15a62b4dd39062556")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN" "7348508919:AAGkZ_K5OUcBuitUQoCV2ZsuJrDArVX8Oas")
+BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","harsh_un")
 # --------------------------------------------------------
@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "UNB")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://HaremDBBot:ThisIsPasswordForHaremDB@haremdb.swzjngj.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -114,7 +114,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQG3QR8AUTzWuqe3gfgk0HlYfD16yZpGzK_OrSg1-j_Ki4P_wDHtgFSAR5d4YItMCUuHLrhg3x69WZWttjcq7ru6n8CwF_xU7yPUk8VInqVaIcrN8nsjUw6DQgLsgNzGXoTk1lkvGZXF3M6-M_6WTFAakDhCIRmBjHjfG_DNJvG4leqRbdvfjF1kz1nZNl-tA50bqZ05uTNvt428fYhKyuFRddycXuaj0WYvlARoiDR50SqdU2gg3e9v30Nzi0mDXXVpw_aaetXR50UGHKcUMNFL0x59ipi6A3J8HN2s8TMijcQhAcfwcL9MLTH0ItrH2QJkbx4R44RQBSgtg-E2QeAaGBPTtwAAAAGnDuOMAA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
